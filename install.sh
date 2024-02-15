@@ -359,7 +359,7 @@ proxies:
     #  up和down均不写或为0则使用BBR流控
     # up: "30 Mbps" # 若不写单位，默认为 Mbps
     # down: "200 Mbps" # 若不写单位，默认为 Mbps
-    password: $hy_password
+    auth: $hy_password
     sni: $hy_server_name
     skip-cert-verify: true
     alpn:
